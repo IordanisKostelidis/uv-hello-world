@@ -8,6 +8,7 @@
     "start": "npx serve -p 5000",
     "postinstall": "npm run copy"
   },
+  "homepage": "https://uv.local.net"
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UniversalViewer/uv-hello-world.git"
