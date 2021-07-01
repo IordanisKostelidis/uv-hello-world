@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "copy": "rimraf uv && cp -R node_modules/universalviewer/uv ./public/uv",
-    "start": "cd ./public && npx serve -p 5000",
+    "start": "&& npx http-server ./public -p 5000 -d false",
     "postinstall": "npm run copy"
   },
   "repository": {
@@ -21,8 +21,7 @@
   "homepage": "https://github.com/UniversalViewer/uv-hello-world#readme",
   "dependencies": {
     "http-server": "^0.11.1",
-    "universalviewer": "^3.0.22",
-    "serve": "^12.0.0"
+    "universalviewer": "^3.0.22"
   },
   "devDependencies": {
     "rimraf": "^2.6.2"
